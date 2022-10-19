@@ -7,5 +7,5 @@ The Convolutional Neural Network(CNN) can be thought of as an encoder. The input
 ## Decoder:
 The Decoder is a Recurrent Neural Network(RNN) which does language modelling up to the word level. The first time step receives the encoded output from the encoder and also the <START> vector.
 
-## Model Building (4 mark) 
+## Model Building
 For this, Pretrained Resnet-50 model which is trained on ImageNet dataset (available publicly on google) is used for image feature extraction. 5 layered LSTM layer model is used for image caption generation.
